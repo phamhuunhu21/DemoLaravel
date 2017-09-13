@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::get('helloword', 'MyController@HelloWord');
 
-Route::get('KhoaHoc', function() {
+Route::get('hello', function() {
     return "Xin chao cac ban";
 });
 
