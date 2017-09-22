@@ -29,4 +29,15 @@ Route::get('getForm', function() {
 	return view('postForm');
 });
 
+Route::get('getView', 'MyController@getView');
+
 Route::post('postForm', ['as'=>'postForm', 'uses'=>'MyController@getName']);
+
+Route::get('getStudent', 'Mycontroller@getStudent');
+
+Route::get('getCategory','PagesController@getCategory');
+
+Route::get('getDetailCategory', 'PagesController@getDetailCategory');
+
+Route::get('getDetailNews', 'PagesController@getDetailNews');
+
